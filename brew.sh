@@ -60,6 +60,7 @@ brew install tree
 brew cask install firefox
 brew cask install the-unarchiver
 brew cask install spectacle
+brew cask install flux
 
 # Security
 brew cask install private-internet-access
