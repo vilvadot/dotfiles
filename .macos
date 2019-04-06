@@ -177,6 +177,12 @@ defaults write com.apple.dock show-recents -bool false
 sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app" "/Applications/Simulator.app"
 sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator (Watch).app" "/Applications/Simulator (Watch).app"
 
+# Only show active Apps in Doc
+defaults write com.apple.dock static-only -bool true; killall Dock
+
+# Put dock on the left side of the screen
+defaults write com.apple.Dock orientation -string "left"
+
 ###############################################################################
 # Terminal & iTerm 2                                                          #
 ###############################################################################
