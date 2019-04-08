@@ -1,6 +1,6 @@
 # Vilva's dotfiles
 
-Here are my dotfiles, a shameful copy and modification of [Salva's](https://github.com/saruba/dotfiles) 
+Here are my dotfiles, a shameful copy and modification of [Salva's](https://github.com/saruba/dotfiles)
 
 Heavily based in the ones from: [mathias](https://github.com/mathiasbynens/dotfiles/)'s and [Addy](https://github.com/addyosmani/dotfiles).
 
@@ -39,6 +39,14 @@ When setting up a new Mac, you may want to install some common [Homebrew](https:
 
 ```bash
 ./brew.sh
+```
+
+### Install VSCode Extensions and Settings
+
+For a list of the extensions that will be installed see `/vscode/extensions`
+
+```bash
+./vscode.sh
 ```
 
 Some of the functionality of these dotfiles depends on formulae installed by `brew.sh`. If you don’t plan to run `brew.sh`, you should look carefully through the script and manually install any particularly important ones. A good example is Bash/Git completion: the dotfiles use a special version from Homebrew.

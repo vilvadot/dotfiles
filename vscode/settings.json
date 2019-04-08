@@ -1,0 +1,13 @@
+{
+    "editor.minimap.enabled": false,
+    "bracketPairColorizer.showHorizontalScopeLine": false,
+    "bracketPairColorizer.showVerticalScopeLine": false,
+    "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 13,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.panel.defaultLocation": "right",
+    "breadcrumbs.enabled": true,
+    "workbench.colorTheme": "Horizon Italic",
+    "editor.wordWrap": "on"
+}
