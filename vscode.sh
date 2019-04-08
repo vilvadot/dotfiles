@@ -2,7 +2,6 @@
 
 IFS=$'\n'
 for line in $(cat "vscode/extensions"); do
-let line_counter=$(($line_counter+1))
 code --install-extension $line
 done
 
