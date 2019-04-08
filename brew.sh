@@ -61,6 +61,8 @@ brew cask install firefox
 brew cask install the-unarchiver
 brew cask install spectacle
 brew cask install flux
+brew cask install docker
+brew cask install insomnia
 
 # Security
 brew cask install private-internet-access
