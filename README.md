@@ -17,7 +17,7 @@ cd dotfiles
 source bootstrap.sh
 ```
 
-## Block Malware, Fake News and Porn domains
+### Block Malware, Fake News and Porn domains
 
 You can block all this sort of stuff by updating your /etc/hosts file with a blacklist of domains redirected to 0.0.0.0. See https://github.com/StevenBlack/hosts
 
