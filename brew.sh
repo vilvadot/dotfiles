@@ -55,6 +55,7 @@ brew install z
 # Install other useful binaries.
 brew install git
 brew install tree
+brew install tmux
 
 # GUI Apps
 brew cask install firefox
