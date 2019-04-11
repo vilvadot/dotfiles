@@ -64,6 +64,7 @@ brew cask install spectacle
 brew cask install flux
 brew cask install docker
 brew cask install insomnia
+brew cask install mongodb-compass
 
 # Security
 brew cask install private-internet-access
