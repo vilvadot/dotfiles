@@ -56,6 +56,7 @@ brew install z
 brew install git
 brew install tree
 brew install tmux
+brew install arp-scan
 
 # GUI Apps
 brew cask install firefox
