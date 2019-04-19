@@ -111,4 +111,4 @@ alias reload="exec ${SHELL} -l"
 alias path='echo -e ${PATH//:/\\n}'
 
 # Print a list of all devices connected in your network
-alias whoIsInMyNetwork='sudo sudo arp-scan --interface=en0 --localnet'
+alias networkscan='sudo sudo arp-scan --interface=en0 --localnet'
