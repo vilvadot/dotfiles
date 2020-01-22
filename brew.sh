@@ -54,9 +54,10 @@ brew install z
 
 # Install other useful binaries.
 brew install git
-brew install tree
 brew install tmux
 brew install arp-scan
+brew install broot #Better than tree
+brew install tldr #Short useful examples documentation
 
 # GUI Apps
 brew cask install firefox
